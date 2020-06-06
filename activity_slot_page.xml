@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_cola"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlotPage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="205dp"
+        android:layout_height="734dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/id_slot1"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="Slot 1: 2:00 - 3:00" />
+
+        <TextView
+            android:id="@+id/id_slot2"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="Slot 2: 3:00 - 4:00" />
+
+        <TextView
+            android:id="@+id/id_slot3"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="Slot 3: 4:00 - 5:00" />
+
+        <TextView
+            android:id="@+id/id_slot4"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="Slot 4: 5:00 - 6:00" />
+
+        <TextView
+            android:id="@+id/id_slot5"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="Slot 5: 6:00 - 7:00" />
+
+        <TextView
+            android:id="@+id/id_courtNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Court Number"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="205dp"
+        android:layout_height="734dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/id_2to3"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/button_draw"
+            android:textColor="#DB3EB1"
+            android:text="Select "
+             />
+
+        <Button
+            android:id="@+id/id_3to4"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/button_draw2"
+            android:textColor="#002A5E"
+            android:text="Select " />
+
+        <Button
+            android:id="@+id/id_4to5"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/button_draw"
+            android:textColor="#DB3EB1"
+            android:text="Select " />
+
+        <Button
+            android:id="@+id/id_5to6"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/button_draw2"
+            android:textColor="#002A5E"
+            android:text="Select " />
+
+        <Button
+            android:id="@+id/id_6to7"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/button_draw"
+            android:text="Select "
+            android:textColor="#DB3EB1" />
+
+        <TextView
+            android:id="@+id/id_dateSelectedd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Selected: "
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
